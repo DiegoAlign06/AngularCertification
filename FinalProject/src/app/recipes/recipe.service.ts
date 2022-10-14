@@ -7,7 +7,7 @@ import { Recipe } from "./recipe.model";
 @Injectable()
 export class RecipeService{
   recipesChanged = new Subject<Recipe[]>();//Agredando el Subject ahora podremos pasar la informacion necesaria para agregar o actualizar las Recipes
-    
+     
     // private recipes: Recipe[] = [
 
     //     new Recipe('Tasty Schnitzel', 'A super-tasty Schnitzel - just awesome!', 
